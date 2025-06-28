@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 
-      <main className="w-[100%] md:max-w-[1250px] mx-auto bg-[#16171D]" >
+      <main className="w-full md:max-w-[1250px] mx-auto bg-[#16171D]" >
         <Navbar />
 
         <SeccionUno />
