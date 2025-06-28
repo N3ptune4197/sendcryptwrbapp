@@ -3,8 +3,8 @@ import BgImage from "./../assets/bg.png";
 export default function SectionThree() {
   return (
     <div className="flex flex-col-reverse md:flex-row-reverse mt-14 max-w-[1250px] mx-auto">
-      <div className="part1 w-full md:w-[62%] flex flex-col justify-center items-center pl-5 md:pl-9 lg:pl-16 pb-7">
-        <div className="card1 w-96 flex flex-col gap-y-7 px-10 py-7 rounded-xl bg-[#21242D] font-poppins">
+      <div className="part1 w-full md:w-[62%] flex flex-col justify-center items-center md:pl-9 lg:pl-16 pb-7 mx-auto">
+        <div className="card1 w-80 md:w-96 flex flex-col gap-y-7 px-10 py-8 rounded-xl bg-[#21242D] font-poppins mx-auto">
           <label className="input">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,10 +62,10 @@ export default function SectionThree() {
                 d="M21 6v2H3V6zM3 18h9v-2H3zm0-5h18v-2H3z"
               />
             </svg>
-            <input type="text" className="grow" placeholder="index.php" />
+            <input type="text" className="grow" placeholder="Message" />
           </label>
 
-          <a className="btn btn-warning" href="/">
+          <a className="btn btn-warning rounded-lg text-[#21242D] font-semibold" href="/">
             Enviar
           </a>
         </div>

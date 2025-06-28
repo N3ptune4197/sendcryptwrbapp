@@ -26,13 +26,13 @@ export default function SectionFour () {
 
         <>
             <div className="flex flex-col mt-8 md:mt-14 max-w-[1250px] mx-auto gap-y-14 mb-20">
-                <h3 className="text-4xl font-semibold text-left pl-5 md:pl-9 lg:pl-16 ">Latest Transactions</h3>
-                <div className="flex flex-col flex-wrap md:gap-x-14 gap-y-7 md:flex-row items-center justify-center max-w-[1250px] mx-auto font-poppins">
+                <h3 className="text-4xl font-semibold text-left md:pl-7 lg:pl-16 ">Latest Transactions</h3>
+                <div className="flex flex-col flex-wrap md:gap-x-14 gap-y-7 md:flex-row items-center justify-center mx-auto font-poppins">
 
                     {
                         movies.map((movie, index) => (
-                            <div key={index} className="card bg-[#21242D] w-72">
-                                <img src={movie.gif} alt="" className='my-7 max-w-72 h-[180px] object-cover px-7'/>
+                            <div key={index} className="card bg-[#21242D] w-80 content">
+                                <img src={movie.gif} alt="" className='my-7 max-w-72 h-[180px] mx-auto object-cover px-7'/>
                                 <div className="middle-300 mx-auto -mt-9 -mb-1">
                                     <span className='text-center bg-red-500 px-5 py-1 rounded-lg text-sm'>{movie.fecha}</span>
                                 </div>

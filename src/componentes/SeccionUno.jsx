@@ -9,7 +9,7 @@ export default function SeccionUno() {
             <div className="flex flex-col md:flex-row mt-8 md:mt-14 max-w-[1250px] mx-auto">
                 <div className="part1 w-full md:w-[62%] flex flex-col justify-center pl-5 md:pl-9 lg:pl-16 pb-7">
                     <div className="title flex flex-col">
-                        <h2 className='text-4xl lg:text-4xl xl:text-6xl font-montserrat font-semibold mb-4' >Start Sending Crypto <br />Currency Easily</h2>
+                        <h2 className='text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-montserrat font-semibold mb-4' >Start Sending Crypto Currency Easily</h2>
 
 
                     </div>

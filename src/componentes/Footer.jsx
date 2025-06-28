@@ -14,7 +14,7 @@ export default function Footer() {
             </aside>
 
 
-            <div className="spearator flex justify-between w-[57%]">
+            <div className="spearator flex gap-x-10 justify-between md:w-[57%]">
 
 
                 <p className="text-[#787A8D] text-sm">Copyright © 2022 SendCrypt</p>
