@@ -25,8 +25,8 @@ export default function SectionFour () {
     return(
 
         <>
-            <div className="flex flex-col mt-8 md:mt-14 max-w-[1250px] mx-auto gap-y-14 mb-20">
-                <h3 className="text-4xl font-semibold text-left md:pl-7 lg:pl-16 ">Latest Transactions</h3>
+            <div className="flex flex-col mt-8 md:mt-14 max-w-[1250px] mx-auto gap-y-7 mb-20">
+                <h3 className="text-4xl font-semibold text-left pl-7 md:pl-7 lg:pl-16 ">Latest Transactions</h3>
                 <div className="flex flex-col flex-wrap md:gap-x-14 gap-y-7 md:flex-row items-center justify-center mx-auto font-poppins">
 
                     {
